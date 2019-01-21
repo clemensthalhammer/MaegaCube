@@ -27,7 +27,7 @@ public class colorsensortest {
 					&& (samples[2] > 0.023f) && (samples[2] < 0.033f) // BLAU
 
 			) {
-				Maegacube_drehen.maegacube_drehen();
+				Maegacube_drehen.maegacube_drehen(1);
 				System.out.println("Hallo");
 				lejos.hardware.Button.waitForAnyPress();
 			}

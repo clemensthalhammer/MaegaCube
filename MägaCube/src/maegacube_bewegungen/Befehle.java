@@ -13,6 +13,9 @@ public class Befehle {
 			Maegacube_griffel.maegacube_halten();
 			Maegacube_drehen.maegacube_drehen(x);
 			Maegacube_griffel.maegacube_stophalten();
+			Maegacube_griffel.maegacube_drehen();
+			Maegacube_griffel.maegacube_drehen();
+			Maegacube_griffel.maegacube_drehen();
 
 		}
 		if (Richtung.equals("D")) {
@@ -22,11 +25,13 @@ public class Befehle {
 
 		}
 		if (Richtung.equals("B")) {
-
+			Maegacube_griffel.maegacube_drehen();
+			Maegacube_griffel.maegacube_drehen();
 			Maegacube_griffel.maegacube_drehen();
 			Maegacube_griffel.maegacube_halten();
 			Maegacube_drehen.maegacube_drehen(x);
 			Maegacube_griffel.maegacube_stophalten();
+			Maegacube_griffel.maegacube_drehen();
 		}
 		if (Richtung.equals("U")) {
 
@@ -35,21 +40,35 @@ public class Befehle {
 			Maegacube_griffel.maegacube_halten();
 			Maegacube_drehen.maegacube_drehen(x);
 			Maegacube_griffel.maegacube_stophalten();
+			Maegacube_griffel.maegacube_drehen();
+			Maegacube_griffel.maegacube_drehen();
 		}
 		if (Richtung.equals("L")) {
 
 			Maegacube_drehen.maegacube_drehen(-1);
 			Maegacube_griffel.maegacube_drehen();
-			Maegacube_drehen.maegacube_drehen(-1);
+			Maegacube_griffel.maegacube_halten();
+			Maegacube_drehen.maegacube_drehen(-x);
 			Maegacube_griffel.maegacube_stophalten();
+			Maegacube_griffel.maegacube_drehen();
+			Maegacube_griffel.maegacube_drehen();
+			Maegacube_griffel.maegacube_drehen();
+			Maegacube_drehen.maegacube_drehen(1);
+			
 
 		}
 		if (Richtung.equals("R")) {
 
 			Maegacube_drehen.maegacube_drehen(1);
 			Maegacube_griffel.maegacube_drehen();
-			Maegacube_drehen.maegacube_drehen(1);
+			Maegacube_griffel.maegacube_halten();
+			Maegacube_drehen.maegacube_drehen(x);
 			Maegacube_griffel.maegacube_stophalten();
+			Maegacube_griffel.maegacube_drehen();
+			Maegacube_griffel.maegacube_drehen();
+			Maegacube_griffel.maegacube_drehen();
+			Maegacube_drehen.maegacube_drehen(-1);
+			
 
 		}
 
