@@ -6,17 +6,30 @@ import lejos.robotics.RegulatedMotor;
 
 public class Maegacube_griffel {
 
-	public static void maegacube_halten() {
+	 static RegulatedMotor m = new EV3LargeRegulatedMotor(MotorPort.A);
+	
+	 public static void maegacube_halten() {
 		// TODO Auto-generated method stub
-		RegulatedMotor m = new EV3LargeRegulatedMotor(MotorPort.B);
+		
 		m.rotateTo(90);
 
 	}
 	
+	public static void maegacube_stophalten() {
+		// TODO Auto-generated method stub
+		
+		m.rotate(-90);;
+
+	}
+	
+	
+	
+	
 	public static void maegacube_drehen() {
-		RegulatedMotor m = new EV3LargeRegulatedMotor(MotorPort.B);
+		
 		m.rotateTo(180);
 		m.rotateTo(90);
+		m.rotate(0);
 		
 	}
 }

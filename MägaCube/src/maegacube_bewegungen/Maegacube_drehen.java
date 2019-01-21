@@ -8,11 +8,13 @@ import lejos.hardware.port.MotorPort;
 import lejos.robotics.RegulatedMotor;
 
 public class Maegacube_drehen {
-
-	public static void maegacube_drehen() {
+	 
+	static RegulatedMotor m = new EV3LargeRegulatedMotor(MotorPort.A);
+	
+	public static void maegacube_drehen(int x) {
 		
-		RegulatedMotor m = new EV3LargeRegulatedMotor(MotorPort.A);
-		m.rotateTo(270);
+		
+		m.rotateTo(270*x);
 
 		
 		// TODO Auto-generated method stub
