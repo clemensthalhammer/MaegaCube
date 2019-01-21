@@ -15,10 +15,17 @@ public class colorsensortest2 {
 			
 			col.setFloodlight(true);
 			
-			while(col.getColorID() != Color.BLUE) {
-				System.out.println("waiting for blue");
+		//	while(col.getColorID() != Color.RED)  (col.getColorID() != Color.BLUE) {
+			//	System.out.println("waiting for red");
+			//}
+			while (col.getRGBMode() != java.awt.Color.BLACK) {
+				System.out.println("hi");
+				
+				
+			//	if (col.getRGBMode() == java.awt.Color.BLUE) {
+				//	System.out.println("yeet");
+				//}
 			}
-		
 
 		lejos.hardware.Button.waitForAnyPress();
 
