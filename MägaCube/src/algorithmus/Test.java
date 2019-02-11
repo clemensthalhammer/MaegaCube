@@ -10,6 +10,8 @@ import org.kociemba.twophase.Facelet;
 import org.kociemba.twophase.Search;
 import org.kociemba.twophase.Tools;
 
+import maegacube_bewegungen.Befehle;
+
 public class Test {
 
 	public static void main(String[] args) throws IOException {
@@ -31,17 +33,130 @@ public class Test {
 
 		for (int i = 0; i < split.length; i++) {
 			System.out.println(split[i]);
-
+//
 			if (split[i].equals("F")) {
 
-			}
-			if (condition) {
+				Befehle.befehl("F", 1);
 
 			}
-			if (condition) {
+			if (split[i].equals("F2")) {
+
+				Befehle.befehl("F", 2);
 
 			}
-			if (condition) {
+			if (split[i].equals("F'")) {
+
+				Befehle.befehl("F", -1);
+
+			}
+			if (split[i].equals("F'2")) {
+
+				Befehle.befehl("F", -2);
+
+			}
+//
+			if (split[i].equals("D")) {
+
+				Befehle.befehl("D", 1);
+
+			}
+			if (split[i].equals("D2")) {
+
+				Befehle.befehl("D", 2);
+
+			}
+			if (split[i].equals("D'")) {
+
+				Befehle.befehl("D", -1);
+
+			}
+			if (split[i].equals("D'2")) {
+
+				Befehle.befehl("D", -2);
+
+			}
+//
+			if (split[i].equals("B")) {
+
+				Befehle.befehl("B", 1);
+
+			}
+			if (split[i].equals("B2")) {
+
+				Befehle.befehl("B", 2);
+
+			}
+			if (split[i].equals("B'")) {
+
+				Befehle.befehl("B", -1);
+
+			}
+			if (split[i].equals("B'2")) {
+
+				Befehle.befehl("B", -2);
+
+			}
+//
+			if (split[i].equals("U")) {
+
+				Befehle.befehl("U", 1);
+
+			}
+			if (split[i].equals("U2")) {
+
+				Befehle.befehl("U", 2);
+
+			}
+			if (split[i].equals("U'")) {
+
+				Befehle.befehl("U", -1);
+
+			}
+			if (split[i].equals("U'2")) {
+
+				Befehle.befehl("U", -2);
+
+			}
+//
+			if (split[i].equals("L")) {
+
+				Befehle.befehl("L", 1);
+
+			}
+			if (split[i].equals("L2")) {
+
+				Befehle.befehl("L", 2);
+
+			}
+			if (split[i].equals("L'")) {
+
+				Befehle.befehl("L", -1);
+
+			}
+			if (split[i].equals("L'2")) {
+
+				Befehle.befehl("L", -2);
+
+			}
+//
+			if (split[i].equals("R")) {
+
+				Befehle.befehl("R", 1);
+
+			}
+			if (split[i].equals("R2")) {
+
+				Befehle.befehl("R", 2);
+
+			}
+			if (split[i].equals("R'")) {
+
+				Befehle.befehl("R", -1);
+
+			}
+			if (split[i].equals("R'2")) {
+
+				Befehle.befehl("R", -2);
 
 			}
 
